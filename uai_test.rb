@@ -22,7 +22,7 @@ end
 # procura a janela principal.
 main_window = wait_until{ Uia.find_element title: /HP.*/ }
 
-# procura todos os elementos tipo edit e name vazio, sao dois compos user, password.
+# procura todos os elementos tipo edit e name vazio, sao dois campos o user e password.
 # text_elem = main_window.find_all(name: '', control_type: :edit)
 
 # procura todos os elementos pelo value.
