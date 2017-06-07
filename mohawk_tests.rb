@@ -3,7 +3,6 @@ require 'mohawk'
 class LoginScreen
   include Mohawk
   window(:title => /HP/)
-  #text(:username, :id => "agentName")
   text(:username, :id => "agentName")
   text(:password, :id => "password")
   button(:login, :name => "OK")
